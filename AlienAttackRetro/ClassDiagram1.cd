@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AlienAttackRetro.Alien">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQgAAAAEAACAAAAAAQAABAAAAACBgAEAAYAA=</HashCode>
+      <FileName>Alien.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Direction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.AlienManager">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACBAAAAAAEAAAAAAAAAAAAABAAAJAACAAQBAAg=</HashCode>
+      <FileName>AlienManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="difficultySettings" />
+      <Field Name="printService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.AlienMover">
+    <Position X="3.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQKAAAABABAAAAAgAAAAAJAAQIAAACAAAAAA=</HashCode>
+      <FileName>AlienMover.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Alien" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.AlienPositionChangedEvent">
+    <Position X="8.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABgAAADAAAAACAAAAAAAAAAAAAAAAAAgAAACAA=</HashCode>
+      <FileName>AlienPositionChangedEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Direction" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.CrossHair">
+    <Position X="16" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAABAAEAAAABAAAAAAAAIAACAABiAAAAAAA=</HashCode>
+      <FileName>CrossHair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="printService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.CrossHairPixel">
+    <Position X="9.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAYAA=</HashCode>
+      <FileName>CrossHairPixel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.DifficultySettings">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAgAAAAEABAAQBAAAAAAE=</HashCode>
+      <FileName>DifficultySettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.DifficultyStableSettings">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAIIAAgAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DifficultyStableSettings.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="EASY" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.DirectionUtils">
+    <Position X="5.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DirectionUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.GameConfiguration">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Difficulty" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.GameEngine">
+    <Position X="10.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAgAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>GameEngine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameInterface" />
+      <Field Name="menuInterface" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.GameInterface">
+    <Position X="13" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAACAACABIAAAAAAACAAAAAAAgAABCAABAAAA=</HashCode>
+      <FileName>GameInterface.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="alienManager" />
+      <Field Name="keyboardWatcher" />
+      <Field Name="printService" />
+      <Field Name="timer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.KeyboardPressedEvent">
+    <Position X="10.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>KeyboardPressedEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.KeyboardWatcher">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAhAAAAAAAAAAAAAAAAAAAAAAgBAAAA=</HashCode>
+      <FileName>KeyboardWatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.MenuInterface">
+    <Position X="7.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQADAAAAAAAAAAAAAAAAAAAAAAIAQAAABA=</HashCode>
+      <FileName>MenuInterface.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameConfiguration" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AlienAttackRetro.PrintPixelRequest">
+    <Position X="11.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAaAA=</HashCode>
+      <FileName>PrintPixelRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.PrintService">
+    <Position X="13.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAQACQEAAAAAAAAAAAAIAAIAQAAAAAAEAAg=</HashCode>
+      <FileName>PrintService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.Program">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlienAttackRetro.Timer">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQQAAAAAAgBAAAAAACAAAAQAA=</HashCode>
+      <FileName>Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AlienAttackRetro.Difficulty">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAgAAAAAAAAAAAAAAAIAAAAAAAAAQAA=</HashCode>
+      <FileName>Difficulty.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AlienAttackRetro.Direction">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Direction.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
