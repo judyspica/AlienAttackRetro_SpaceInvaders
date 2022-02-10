@@ -1,10 +1,3 @@
-﻿// -----------------------------------------------------------------------------
-// <copyright file="AssemblyInfo.cs" company="FHWN">
-// Copyright (c) FHWN. All rights reserved.
-// </copyright>
-// <summary>This program is a crosshair shooting aliens game.</summary>
-// <author>Judy Kardouh.</author>
-// -----------------------------------------------------------------------------
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
